@@ -1,5 +1,5 @@
-import { BrandEntity } from 'src/brand/brand.entity';
-import { DeviceEntity } from 'src/device/device.entity';
+import { BrandEntity } from '../brand/brand.entity';
+import { DeviceEntity } from '../device/device.entity';
 import {
   Column,
   Entity,

@@ -1,5 +1,5 @@
-import { BrandEntity } from 'src/brand/brand.entity';
-import { TypeEntity } from 'src/type/type.entity';
+import { BrandEntity } from '../brand/brand.entity';
+import { TypeEntity } from '../type/type.entity';
 import {
   Column,
   Entity,

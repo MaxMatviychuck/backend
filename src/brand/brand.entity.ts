@@ -1,5 +1,5 @@
-import { DeviceEntity } from 'src/device/device.entity';
-import { TypeEntity } from 'src/type/type.entity';
+import { DeviceEntity } from '../device/device.entity';
+import { TypeEntity } from '../type/type.entity';
 import {
   Column,
   Entity,

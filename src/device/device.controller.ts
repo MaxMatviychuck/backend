@@ -16,9 +16,9 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { DeviceService } from './device.service';
 import { PersistDeviceDto, DeviceQueryParams } from './dto/deviceDto';
 import { Role } from '../user/decorators/role.decorator';
-import { Roles } from 'src/user/type';
-import { AuthGuard } from 'src/user/guards/auth.guard';
-import { AdminRoleGuard } from 'src/user/guards/admin-role.guard';
+import { Roles } from '../user/type';
+import { AuthGuard } from '../user/guards/auth.guard';
+import { AdminRoleGuard } from '../user/guards/admin-role.guard';
 import { DeviceEntity } from './device.entity';
 import { DeleteResult } from 'typeorm';
 

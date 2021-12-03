@@ -1,8 +1,8 @@
 import { Body, Controller, Get, Post, UseGuards } from '@nestjs/common';
-import { Role } from 'src/user/decorators/role.decorator';
-import { AdminRoleGuard } from 'src/user/guards/admin-role.guard';
-import { AuthGuard } from 'src/user/guards/auth.guard';
-import { Roles } from 'src/user/type';
+import { Role } from '../user/decorators/role.decorator';
+import { AdminRoleGuard } from '../user/guards/admin-role.guard';
+import { AuthGuard } from '../user/guards/auth.guard';
+import { Roles } from '../user/type';
 import { BrandEntity } from './brand.entity';
 import { BrandService } from './brand.service';
 import { CreateBrandDto } from './dto/brandDto';

@@ -1,6 +1,6 @@
 import { HttpException, HttpStatus, Injectable, Query } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { FilesService } from 'src/files/files.service';
+import { FilesService } from '../files/files.service';
 import { DeleteResult, Repository } from 'typeorm';
 import { DeviceEntity } from './device.entity';
 import { PersistDeviceDto, DeviceQueryParams } from './dto/deviceDto';
